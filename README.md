@@ -71,15 +71,29 @@ Fill out the following table, mapping decimal numbers `0` through `15` to their 
 |---------|------------------------|
 | 0       | 0000                   |
 | 1       | 0001                   |
-| ...     | ...                    |
-| 15      | ????                   |
+| 2       | 0010                   |
+| 3       | 0011                   |
+| 4       | 0100                   |
+| 5       | 0101                   |
+| 6       | 0110                   |
+| 7       | 0111                   |
+| 8       | 1000                   |
+| 9       | 1001                   |
+| 10      | 1010                   |
+| 11      | 1011                   |
+| 12      | 1100                   |
+| 13      | 1101                   |
+| 14      | 1110                   |
+| 15      | 1111                   |
 
 **How many binary digits (bits) are needed?**
 
 Explain how to calculate the number of bits required:
 <details>
 <summary>Your Answer</summary>
-Erase this text and write your answer here!
+   
+Um auszurechnen, wie viele Bits(B) man benötigt um eine Zahl zu speichern, setzt mal die Zahl x in die Formel B=log2(x+1) ein. 
+
 </details>
 
 ---
@@ -107,13 +121,24 @@ Refer to the truth table of a 1-bit full adder:
 #### Your Task
 Create a truth table for a **2-bit adder** without carry-in. What are the possible inputs and outputs?
 
->   Your
->
->   table
->
->   goes
->
->   here!
+| B1; B2; A1; A2 # O2; O1; O0|
+--------------------------------
+| 0 ; 0 ; 0 ; 0 #  0 ; 0 ; 0 |
+| 0 ; 0 ; 0 ; 1 #  0 ; 0 ; 1 |
+| 0 ; 0 ; 1 ; 0 #  0 ; 1 ; 0 |
+| 0 ; 0 ; 1 ; 1 #  0 ; 1 ; 1 |
+| 0 ; 1 ; 0 ; 0 #  0 ; 0 ; 1 |
+| 0 ; 1 ; 0 ; 1 #  0 ; 1 ; 0 | 
+| 0 ; 1 ; 1 ; 0 #  0 ; 1 ; 1 |
+| 0 ; 1 ; 1 ; 1 #  1 ; 0 ; 0 |
+| 1 ; 0 ; 0 ; 0 #  0 ; 1 ; 0 |
+| 1 ; 0 ; 0 ; 1 #  0 ; 1 ; 1 |
+| 1 ; 0 ; 1 ; 0 #  1 ; 0 ; 0 |
+| 1 ; 0 ; 1 ; 1 #  1 ; 0 ; 1 |
+| 1 ; 1 ; 0 ; 0 #  0 ; 1 ; 1 |
+| 1 ; 1 ; 0 ; 1 #  1 ; 0 ; 0 |
+| 1 ; 1 ; 1 ; 0 #  1 ; 0 ; 1 |
+| 1 ; 1 ; 1 ; 1 #  1 ; 1 ; 0 |
 
 ---
 
