@@ -153,9 +153,9 @@ Use the [K-Map method](https://github.com/STEMgraph/4b957490-badf-4264-b9f2-1b5a
 <details>
 <summary>The final functions</summary>
 
-Q<sub>0</sub> = (A1^(B1)) v ((A1)^B1)
+Q<sub>0</sub> = (A2^B2')v(B2^A2')
 
-Q<sub>1</sub> = 
+Q<sub>1</sub> = (A1^B1'^B2')v(A1^A2'^B1')v(A1'^A2'^B1)v(A1'^B1^B2')v(A1'^A2^B1'^B2)v(A1^A2^B1^B2)
 
 C<sub>out</sub> = .......
 
@@ -168,7 +168,7 @@ Using your Boolean equations, build a logic network in [CircuitVerse](https://ci
 
 <details>
 <summary>Your solution</summary>
-A share link to your solution goes here: <a href=".................">Link!</a>
+A share link to your solution goes here: <a href="https://circuitverse.org/users/306158/projects/o0-bit-adder">Link!</a>
 </details>
 
 ---
